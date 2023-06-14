@@ -1,0 +1,26 @@
+{
+  "name": "rlean-core-testing",
+  "version": "1.0.1",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --mode development --watch",
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "zustand": "^4.2.0",
+    "@rlean/core": "^3.0.11",
+    "axios": "0.21.4"
+  },
+  "devDependencies": {
+    "rlean-core-types": "^1.0.0",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
